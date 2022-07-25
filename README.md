@@ -2,8 +2,12 @@
 ## Pictures fragment
 ### Displaying pictures
 Images that were taken by the user are being displayed in a slider view and are being cycled through automatically. Right after the image is captured, the thumbnail changes to the most recent image, that was captured by the user.
-![picture1](preview/picture1.png?raw=true)
-![picture2](preview/picture2.png?raw=true)
+<p align="center">
+  <img src="preview/picture1.png?raw=true" />
+</p>
+<p align="center">
+  <img src="preview/picture2.png?raw=true" />
+</p>
 ### Capturing images
 For image capturing there is a “TAKE AN IMAGE” button. Images are saved to internal storage and uploaded to Firebase. If everything goes right, a toast message of “Upload successful” appears and the image can be located in the Firebase storage.
 ![picture3](preview/picture3.png?raw=true)![picture4](preview/picture4.jpg?raw=true)
