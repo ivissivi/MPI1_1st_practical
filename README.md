@@ -14,6 +14,8 @@ Recordings that were recorded by the user are displayed in a list view. Each ite
 ![picture5](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture5.jpg?raw=true)
 
 For audio recording there is a “RECORD AUDIO” button. To start recording, the use must simply click it once and in order to stop the recording user must click the button again. Recordings are saved to internal storage of the device under /Music.
+![picture6](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture6.jpg?raw=true)
+![picture7](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture7.jpg?raw=true)
 
 ## Firebase
 ### Firebase Cloud Storage
@@ -22,3 +24,6 @@ Images that are captured by the user are uploaded to the database under “uploa
 ### Firebase Realtime Database
 Image URLs are uploaded to a realtime database under uploads.
 ![picture10](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture10.png?raw=true)
+### Firebase Analytics
+Buttons that are clicked by the user are logged in the Firebase analytics and grouped by the event name.
+![picture11](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture11.png?raw=true)
