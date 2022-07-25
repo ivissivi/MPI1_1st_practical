@@ -29,15 +29,15 @@ For audio recording there is a “RECORD AUDIO” button. To start recording, th
 ### Firebase Cloud Storage
 Images that are captured by the user are uploaded to the database under “uploads”.
 <p align="center">
-  ![picture9](preview/picture9.png?raw=true)
+  <img src="preview/picture9.png?raw=true" />
 </p>
 ### Firebase Realtime Database
 Image URLs are uploaded to a realtime database under uploads.
 <p align="center">
-  ![picture10](preview/picture10.png?raw=true)
+  <img src="preview/picture10.png?raw=true" />
 </p>
 ### Firebase Analytics
 Buttons that are clicked by the user are logged in the Firebase analytics and grouped by the event name.
 <p align="center">
-  ![picture11](preview/picture11.png?raw=true)
+  <img src="preview/picture11.png?raw=true" />
 </p>
