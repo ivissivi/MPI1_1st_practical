@@ -12,3 +12,13 @@ For image capturing there is a “TAKE AN IMAGE” button. Images are saved to i
 ### Displaying recordings
 Recordings that were recorded by the user are displayed in a list view. Each item contains the full name of the file from storage. File name is generated randomly by adding the current time in milliseconds to the string of the file name.
 ![picture5](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture5.jpg?raw=true)
+
+For audio recording there is a “RECORD AUDIO” button. To start recording, the use must simply click it once and in order to stop the recording user must click the button again. Recordings are saved to internal storage of the device under /Music.
+
+## Firebase
+### Firebase Cloud Storage
+Images that are captured by the user are uploaded to the database under “uploads”.
+![picture9](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture9.png?raw=true)
+### Firebase Realtime Database
+Image URLs are uploaded to a realtime database under uploads.
+![picture10](https://github.com/ivissivi/MPI1_1st_practical/tree/master/preview/picture10.png?raw=true)
