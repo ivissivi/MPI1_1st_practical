@@ -8,15 +8,22 @@ Images that were taken by the user are being displayed in a slider view and are 
 </p>
 ### Capturing images
 For image capturing there is a “TAKE AN IMAGE” button. Images are saved to internal storage and uploaded to Firebase. If everything goes right, a toast message of “Upload successful” appears and the image can be located in the Firebase storage.
-![picture3](preview/picture3.png?raw=true)![picture4](preview/picture4.jpg?raw=true)
+<p align="center">
+  <img src="preview/picture3.png?raw=true" />
+  <img src="preview/picture4.png?raw=true" />
+</p>
 ## Audio fragment
 ### Displaying recordings
 Recordings that were recorded by the user are displayed in a list view. Each item contains the full name of the file from storage. File name is generated randomly by adding the current time in milliseconds to the string of the file name.
-![picture5](preview/picture5.png?raw=true)
+<p align="center">
+  <img src="preview/picture5.png?raw=true" />
+</p>
 
 For audio recording there is a “RECORD AUDIO” button. To start recording, the use must simply click it once and in order to stop the recording user must click the button again. Recordings are saved to internal storage of the device under /Music.
-![picture6](preview/picture6.png?raw=true)
-![picture7](preview/picture7.png?raw=true)
+<p align="center">
+  <img src="preview/picture6.png?raw=true" />
+  <img src="preview/picture7.png?raw=true" />
+</p>
 
 ## Firebase
 ### Firebase Cloud Storage
